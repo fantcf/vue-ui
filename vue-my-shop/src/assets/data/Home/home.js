@@ -28,7 +28,29 @@ export const menulist = [
     },
     {
         id: 3,
-        authName: '菜单3'
+        authName: '商品管理',
+        children: [
+            {
+                id: 301,
+                authName: '商品列表',
+                path: 'list'
+            },
+            {
+                id: 302,
+                authName: '商品分类',
+                path: 'cates'
+            },
+            {
+                id: 303,
+                authName: '参数列表',
+                path: 'params'
+            },
+            {
+                id: 304,
+                authName: '添加商品',
+                path: 'add'
+            },
+        ]
     },
     {
         id: 4,

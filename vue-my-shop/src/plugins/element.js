@@ -23,7 +23,14 @@ import {
     Pagination,
     Dialog,
     Select,
-    Option
+    Option,
+    Tag,
+    Tree,
+    Container,
+    Cascader,
+    Alert,
+    Tabs,
+    TabPane
 } from 'element-ui'
 
 Vue.use(Button)
@@ -49,5 +56,12 @@ Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Container)
+Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 Vue.prototype.$message = Message
