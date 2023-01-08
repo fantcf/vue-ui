@@ -1,0 +1,41 @@
+export const menulist = [
+    {
+        id: 1,
+        authName: '用户管理',
+        children: [
+            {
+                id: 101,
+                authName: '用户列表',
+                path: 'users'
+            }
+        ]
+    },
+    {
+        id: 2,
+        authName: '权限',
+        children: [
+            {
+                id: 201,
+                authName: '权限',
+                path: 'rights'
+            },
+            {
+                id: 202,
+                authName: '角色',
+                path: 'roles'
+            }
+        ]
+    },
+    {
+        id: 3,
+        authName: '菜单3'
+    },
+    {
+        id: 4,
+        authName: '菜单4'
+    },
+    {
+        id: 5,
+        authName: '菜单5'
+    },
+]
