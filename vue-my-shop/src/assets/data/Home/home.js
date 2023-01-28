@@ -54,7 +54,14 @@ export const menulist = [
     },
     {
         id: 4,
-        authName: '菜单4'
+        authName: '订单管理',
+        children: [
+            {
+                id: 401,
+                authName: '订单管理',
+                path: 'order'
+            }
+        ]
     },
     {
         id: 5,
