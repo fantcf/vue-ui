@@ -65,6 +65,13 @@ export const menulist = [
     },
     {
         id: 5,
-        authName: '菜单5'
+        authName: '订单图表',
+        children: [
+            {
+                id: 501,
+                authName: '订单图表',
+                path: 'report'
+            }
+        ]
     },
 ]
